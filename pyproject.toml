@@ -10,6 +10,6 @@ description = "My first package"
 dependencies = [
   "httpx",
   "gidgethub>4.0.0",
-  "numpy"
+  "numpy",
 ]
 license = {file = "MITlicense.txt"}
