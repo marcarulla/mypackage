@@ -10,6 +10,18 @@ description = "My first package"
 dependencies = [
   "httpx",
   "gidgethub>4.0.0",
-  "numpy",
+  "numpy>=2.3.0",
 ]
 license = {file = "MITlicense.txt"}
+
+
+[project.optional-dependencies]
+dev = [
+  "bumpver",
+  "pytest",
+  "pytest-cov",
+]
+docs = [
+  "sphinx",
+  "sphinx-rtd-theme",
+]
